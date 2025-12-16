@@ -1,0 +1,187 @@
+{
+  "name": "Enterprise Software Project",
+  "description": "Full Waterfall SDLC with Validation & Verification.",
+  "phases": [
+    {
+      "name": "Requirements",
+      "description": "Gathering needs",
+      "tasks": [
+        {
+          "title": "Stakeholder Interviews",
+          "durationDays": 5,
+          "assignee": "Alice (PM)",
+          "completed": false,
+          "subtasks": [
+            {
+              "title": "Prep",
+              "durationDays": 1,
+              "completed": false
+            },
+            {
+              "title": "Interview",
+              "durationDays": 3,
+              "completed": false
+            },
+            {
+              "title": "Review",
+              "durationDays": 1,
+              "completed": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Design",
+      "description": "System architecture",
+      "tasks": [
+        {
+          "title": "UI Mockups",
+          "durationDays": 5,
+          "assignee": "Carol (Design)",
+          "completed": false,
+          "subtasks": [
+            {
+              "title": "Wireframes",
+              "durationDays": 2,
+              "completed": false
+            },
+            {
+              "title": "Hi-Fi",
+              "durationDays": 3,
+              "completed": false
+            }
+          ]
+        },
+        {
+          "title": "DB Schema",
+          "durationDays": 3,
+          "assignee": "Dave (DBA)",
+          "completed": false,
+          "subtasks": []
+        }
+      ]
+    },
+    {
+      "name": "Implementation",
+      "description": "Coding",
+      "tasks": [
+        {
+          "title": "Backend Setup",
+          "durationDays": 5,
+          "assignee": "Backend Team",
+          "completed": false,
+          "subtasks": []
+        },
+        {
+          "title": "API Dev",
+          "durationDays": 10,
+          "assignee": "Backend Team",
+          "completed": false,
+          "subtasks": []
+        },
+        {
+          "title": "Frontend",
+          "durationDays": 10,
+          "assignee": "Frontend Team",
+          "completed": false,
+          "subtasks": []
+        }
+      ]
+    },
+    {
+      "name": "Verification",
+      "description": "Internal Testing",
+      "tasks": [
+        {
+          "title": "Code Reviews",
+          "durationDays": 3,
+          "assignee": "Tech Lead",
+          "completed": false,
+          "subtasks": []
+        },
+        {
+          "title": "Unit Testing",
+          "durationDays": 5,
+          "assignee": "Dev Team",
+          "completed": false,
+          "subtasks": []
+        },
+        {
+          "title": "Integration Testing",
+          "durationDays": 5,
+          "assignee": "QA",
+          "completed": false,
+          "subtasks": []
+        }
+      ]
+    },
+    {
+      "name": "Validation",
+      "description": "Requirements Check",
+      "tasks": [
+        {
+          "title": "User Acceptance Testing (UAT)",
+          "durationDays": 5,
+          "assignee": "Stakeholders",
+          "completed": false,
+          "subtasks": []
+        },
+        {
+          "title": "Compliance Check",
+          "durationDays": 2,
+          "assignee": "Legal",
+          "completed": false,
+          "subtasks": []
+        }
+      ]
+    },
+    {
+      "name": "Final Test & Demo",
+      "description": "Final steps",
+      "tasks": [
+        {
+          "title": "Performance Test",
+          "durationDays": 3,
+          "assignee": "QA",
+          "completed": false,
+          "subtasks": []
+        },
+        {
+          "title": "Final Client Demo",
+          "durationDays": 1,
+          "assignee": "PM & Lead",
+          "completed": false,
+          "subtasks": []
+        },
+        {
+          "title": "Sign-off Meeting",
+          "durationDays": 1,
+          "assignee": "Sponsors",
+          "completed": false,
+          "subtasks": []
+        }
+      ]
+    },
+    {
+      "name": "Maintenance",
+      "description": "Support",
+      "tasks": [
+        {
+          "title": "Production Deployment",
+          "durationDays": 1,
+          "assignee": "DevOps",
+          "completed": false,
+          "subtasks": []
+        },
+        {
+          "title": "User Training",
+          "durationDays": 2,
+          "assignee": "Alice (PM)",
+          "completed": false,
+          "subtasks": []
+        }
+      ]
+    }
+  ]
+}
